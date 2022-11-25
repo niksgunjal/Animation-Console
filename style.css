@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    user-select: none;
+    margin-left: 1%;
+}
+
+.table1,
+th,
+td {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+input {
+    outline: none;
+    border: 0px;
+    text-align: center;
+    background-color: white;
+}
+
+select,
+option,
+.date {
+    width: 10%;
+    text-align: center;
+    height: 4%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    appearance: none;
+    outline: none;
+
+}
+
+thead {
+    font-weight: bold;
+}
+
+.section1 {
+    width: 25%;
+    /*height:20%; */
+    margin-top: auto;
+    left: 0px;
+    top: 0px;
+    overflow-wrap: anywhere;
+    text-align: center;
+
+}
+
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
